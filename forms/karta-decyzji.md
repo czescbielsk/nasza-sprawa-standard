@@ -1,29 +1,36 @@
-# Karta decyzji — wersja do wydruku (projekt 0.1)
+# Karta decyzji — projekt 0.1, do wydruku
 
-**Numer sprawy:** ___________________  **Data decyzji:** ___________________
+**Identyfikator sprawy (SP):** __________ **Data:** __________
 
-**Decyzja:** ☐ Przyjęto do realizacji  ☐ Odłożono  ☐ Przekazano  ☐ Połączono  ☐ Odrzucono  ☐ Do uzupełnienia
+**Rodzaj decyzji:** ☐ Przyjęcie własnego działania ☐ Odłożenie ☐ Przekazanie ☐ Połączenie ☐ Odmowa ☐ Prośba o uzupełnienie ☐ Zakończenie obsługi ☐ Inna: __________
 
-**Uzasadnienie (obowiązkowe):**
+**Czego dotyczy decyzja?** __________________________________________
 
-________________________________________________________________________
+**Uzasadnienie:** ___________________________________________________
 
-________________________________________________________________________
+____________________________________________________________________
 
-**Osoba / zespół podejmujący decyzję:** _______________________________________
+**Decydent (osoba / organ / zespół):** _________________________________
 
-**Podstawa kompetencji lub upoważnienie:** ____________________________________
+**Organizacja:** __________ **Zakres kompetencji / umocowanie:** __________
 
-**Jeśli przekazano: do kogo i jak?** __________________________________________
+**Charakter rozstrzygnięcia:**
+☐ Decyzja wewnętrzna inicjatywy (nie wiąże podmiotów zewnętrznych)
+☐ Informacja o rozstrzygnięciu instytucji (wskazać dokument / źródło): __________
 
-**Czy odbiorca potwierdził przyjęcie?** ☐ Nie  ☐ Tak  ☐ Nie dotyczy
+**Czy inny podmiot odrębnie potwierdził przyjęcie zobowiązania?**
+☐ Nie ☐ Tak — źródło potwierdzenia: __________ ☐ Nie dotyczy
 
-**Jeśli podjęto realizację — kto odpowiada?** __________________________________
+**Jeżeli przekazano:** adresat __________ data __________ kanał __________
+☐ Wysłano ☐ Potwierdzono odbiór ☐ Potwierdzono przyjęcie do rozpatrzenia
+**Źródło potwierdzenia:** __________
 
-**Termin ponownego przeglądu / kolejny krok:** _________________________________
+**Realizator (wyłącznie gdy przyjął działanie):** __________
 
-**Sposób poinformowania zainteresowanych:** ____________________________________
+**Kolejny krok / termin przeglądu:** __________
 
-**Podpis / identyfikacja decydenta:** __________________________________________
+**Jak poinformowano zainteresowanych, również bez Internetu?** __________
 
-> Ta karta dokumentuje decyzję w ramach inicjatywy. Nie zastępuje decyzji administracyjnej ani urzędowego trybu rozpatrywania spraw.
+**Podpis / identyfikacja decydenta:** __________
+
+> Dokument nie zastępuje decyzji administracyjnej ani urzędowego postępowania. Nie wolno wpisywać niepotwierdzonych zobowiązań w imieniu urzędu lub innej instytucji.
