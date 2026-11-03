@@ -1,16 +1,29 @@
-# Rejestr spraw — wzór do przepisania na papier lub do arkusza
+# Rejestr spraw — wzór papierowy / arkuszowy (projekt 0.1)
 
-| ID | Data | Krótki opis potrzeby | Opiekun / zespół | Status | Ostatnia decyzja / data | Następny krok |
+| ID sprawy (SP) | Data | ID potrzeby (PO) | Opis potrzeby | Opiekun | Status | Ostatnie zdarzenie | Następny krok |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SP-001 | | PO-001 | | | NOWA | | |
+| SP-002 | | PO-002 | | | NOWA | | |
+
+## Rejestr powiązań
+
+| ID zgłoszenia (ZG) | ID potrzeby (PO) | ID sprawy (SP) | Data powiązania | Uwagi |
+| --- | --- | --- | --- | --- |
+| ZG-001 | PO-001 | SP-001 | | |
+| ZG-002 | PO-001 | SP-001 | | |
+
+## Dziennik zdarzeń (osobny arkusz / karta na sprawę)
+
+| Lp. | ID sprawy | Data | Zdarzenie | Podmiot / rola | Uzasadnienie i skutek | Odniesienie |
 | --- | --- | --- | --- | --- | --- | --- |
-| NS-0001 | | | | NOWA | | |
-| NS-0002 | | | | NOWA | | |
-| NS-0003 | | | | NOWA | | |
+| 1 | SP-001 | | Przyjęcie | | | ZG-001 |
+| 2 | SP-001 | | Powiązanie | | | ZG-002 |
 
 ## Reguły
 
-- Nie zmieniaj nadanych identyfikatorów, nawet po połączeniu spraw.
-- Połączone sprawy zachowują odwołania do pierwotnych numerów.
-- Przy każdej zmianie statusu zapisz datę, osobę / rolę, podstawę i powód w historii sprawy lub w karcie decyzji.
-- Nie usuwaj historii, by sprawa wyglądała na wcześniej zakończoną.
-- Publiczna kopia rejestru nie zawiera danych osobowych lub informacji umożliwiających nieuprawnioną identyfikację zgłaszającego.
-- Wersję cyfrową można prowadzić w arkuszu bez narzucania technologii.
+- Identyfikatory ZG, PO i SP są odrębne i niezmienne; przy wymianie między organizacjami dopisz wystawcę.
+- Połączenie nie usuwa pierwotnych zgłoszeń ani ich historii.
+- Każdą istotną zmianę dopisz do dziennika; nie wymazuj poprzednich wpisów.
+- Status sprawy jest odrębny od oceny, czy potrzeba została zaspokojona.
+- „Przekazano” jest zdarzeniem; nie oznacza, że adresat przyjął sprawę.
+- Kopie publiczne nie zawierają danych osobowych ani szczegółów pozwalających na nieuprawnioną identyfikację.
