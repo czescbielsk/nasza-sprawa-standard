@@ -1,35 +1,39 @@
-# Karta zgłoszenia — wersja do wydruku (projekt 0.1)
+# Karta zgłoszenia — projekt 0.1, do wydruku
 
-**Numer sprawy:** ___________________  **Data:** ___________________
+**Identyfikator zgłoszenia (ZG):** __________ **Data:** __________
 
-**Sposób zgłoszenia:** ☐ Osobiście  ☐ Telefon  ☐ Papier  ☐ Internet  ☐ Inny __________
+**Kanał:** ☐ Osobiście ☐ Telefon ☐ Papier ☐ Internet ☐ Inny __________
 
-**Kto wprowadził zgłoszenie (rola / organizacja):** __________________________________
+**Zgłaszający:** ☐ Anonimowy ☐ Osoba / organizacja (dane identyfikacyjne tylko jeśli potrzebne, oddzielnie)
 
-**Opis problemu, pomysłu lub potrzeby własnymi słowami:**
+**Kto zapisał zgłoszenie?** ☐ Zgłaszający ☐ Pośrednik — rola / organizacja: __________
 
-________________________________________________________________________
+**Podstawa przekazania przez pośrednika:** ☐ Bezpośrednia prośba osoby ☐ Zgłoszenie anonimowe ☐ Inna (opisz): __________
 
-________________________________________________________________________
+**Czy osoba zgłaszająca zaakceptowała przekazanie treści?** ☐ Tak ☐ Nie dotyczy — zgłoszenie anonimowe ☐ Do wyjaśnienia
 
-**Gdzie problem występuje / kogo dotyczy (bez zbędnych danych osobowych):**
+**Opis własnymi słowami zgłaszającego:**
 
-________________________________________________________________________
+____________________________________________________________________
 
-**Co powinno się zmienić z punktu widzenia zgłaszającego?**
+____________________________________________________________________
 
-________________________________________________________________________
+**Miejsce / grupa, której dotyczy potrzeba (bez zbędnych danych osobowych):**
 
-**Czy potrzebny jest kontakt zwrotny?** ☐ Nie  ☐ Tak — sposób kontaktu zapisany oddzielnie
+____________________________________________________________________
 
-**Czy zgłoszono pilne zagrożenie?** ☐ Nie  ☐ Tak — skierowano do właściwych służb / kanału: ____________
+**Co powinno się zmienić?** _________________________________________
 
-**Wstępnie rozpoznana potrzeba (wypełnia opiekun, może pozostać pusta):**
+**Kontakt zwrotny:** ☐ Niepotrzebny ☐ Uzgodniony, zapisany oddzielnie ☐ Publiczny komunikat / dyżur
 
-________________________________________________________________________
+**Czy istnieje pilne zagrożenie?** ☐ Nie ☐ Tak — właściwy kanał / służba: __________
 
-**Opiekun sprawy / zespół:** ___________________  **Data przyjęcia:** _______________
+**Wypełnia opiekun:**
 
-**Uwagi dotyczące dalszych czynności:** _________________________________________
+**Powiązana potrzeba (PO):** __________ **Sprawa (SP):** __________
 
-> Informacje kontaktowe, jeśli konieczne, przechowywać oddzielnie. Nie wpisywać danych wrażliwych do karty przeznaczonej do publikacji.
+**Opiekun / zespół:** __________ **Data wpisu do rejestru:** __________
+
+**Uwagi / dalsze kroki:** ___________________________________________
+
+> Pośrednik nie publikuje danych kontaktowych ani tożsamości zgłaszającego na podstawie samego przyjęcia zgłoszenia. Jeśli brak podstawy do przekazania danych osobowych, przyjmij opis bez tych danych lub wyjaśnij zasady dalszego postępowania.
