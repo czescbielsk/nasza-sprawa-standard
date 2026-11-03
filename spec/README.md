@@ -1,62 +1,88 @@
-# Specyfikacja procesu — szkic 0.1
+# Specyfikacja procesu — projekt 0.1
 
-**Status:** draft. Wymagania poniżej są propozycjami do przetestowania, nie zatwierdzonym standardem.
+**Status:** do konsultacji i testów analogowych. Nie jest to przyjęty standard ani procedura urzędowa.
 
-## Cel i granice
+## Zakres
 
-Standard opisuje wspólny język oraz minimalny, możliwy do odtworzenia proces obsługi potrzeb i inicjatyw. Nie określa technologii, rodzaju instytucji, budżetu ani sposobu wyboru lokalnych priorytetów.
+Opisujemy wspólny język i minimalny, możliwy do odtworzenia proces współpracy. Nie narzucamy technologii, organu zarządzającego, budżetu ani polityki lokalnych priorytetów. Właściwe procedury prawne i kanały alarmowe zachowują pierwszeństwo.
 
-Nie zastępuje postępowań administracyjnych, zgłoszeń alarmowych, skarg i wniosków obsługiwanych według obowiązujących przepisów. Sprawy wykraczające poza kompetencje uczestników powinny być oznaczane jako skierowane do właściwego kanału, bez deklarowania decyzji w imieniu tego podmiotu.
+## Pojęcia i relacje
 
-## Podstawowe pojęcia
+- **Zgłoszenie (ZG):** niezmieniony sens pierwotnej informacji, problemu, pomysłu lub oferty pomocy. Ma własny identyfikator, datę i kanał.
+- **Potrzeba (PO):** rozpoznany stan wymagający uwagi. Może wynikać z wielu zgłoszeń; jedno zgłoszenie może wskazywać kilka potrzeb.
+- **Sprawa (SP):** prowadzony proces rozpatrywania jednej potrzeby w określonym zakresie. Ma opiekuna, historię i własny identyfikator. Jedna potrzeba może mieć kilka spraw prowadzonych przez różne zespoły.
+- **Propozycja działania:** możliwa odpowiedź, bez domniemania akceptacji.
+- **Decyzja:** rozstrzygnięcie w zakresie rzeczywistych kompetencji konkretnego decydenta.
+- **Działanie:** przyjęty zakres pracy z odpowiedzialnym realizatorem.
+- **Rezultat:** zaobserwowany efekt działania, odrębny od samego wykonania zadania.
 
-- **Zgłoszenie:** pierwotna informacja od osoby lub organizacji; może zawierać problem, pomysł lub propozycję pomocy.
-- **Potrzeba:** zrozumiany stan rzeczy wymagający uwagi; wiele zgłoszeń może dotyczyć jednej potrzeby.
-- **Propozycja działania:** możliwy sposób odpowiedzi na potrzebę, jeszcze nie zatwierdzony.
-- **Sprawa:** jednostka pracy z identyfikatorem, historią decyzji i wskazanym opiekunem.
-- **Decyzja:** rozstrzygnięcie podjęte przez uprawnioną osobę lub grupę z uzasadnieniem.
-- **Działanie:** przyjęty do realizacji zakres pracy, z odpowiedzialnością i sposobem oceny efektu.
-- **Rezultat:** udokumentowane wykonanie i ocena tego, czy pomogło rozwiązać potrzebę.
+Każdy rekord zachowuje swój identyfikator. Połączenie duplikatów **nie usuwa** zgłoszeń ani ich źródeł: rejestrujemy powiązanie ZG → PO → SP. Na papierze wystarczy tabela powiązań i wpis w dzienniku zdarzeń. Przykład: ZG-001 i ZG-002 → PO-001 → SP-001. Identyfikatory są stabilne w obrębie organizacji prowadzącej; przy wymianie między organizacjami należy dopisać identyfikator wystawcy.
 
-## Role (jedna osoba może pełnić kilka)
+## Role i odpowiedzialność
 
-- **Zgłaszający:** przedstawia problem lub pomysł, także anonimowo.
-- **Pośrednik:** za zgodą lub na żądanie zainteresowanego wprowadza sprawę, np. przez telefon, na dyżurze lub z papieru; odnotowuje kanał i zakres umocowania.
-- **Opiekun sprawy:** dba o kompletność danych, kontakt i aktualny status.
-- **Decydent:** podejmuje tylko decyzje należące do jego rzeczywistych kompetencji.
-- **Realizator:** odpowiada za konkretne działanie.
-- **Obserwator społeczny:** może zapoznawać się z bezpiecznymi do publikacji informacjami.
-- **Instytucja publiczna:** może pełnić każdą adekwatną rolę jako równorzędny kontrybutor; udział w standardzie nie daje jej dodatkowych uprawnień ustawowych.
+- **Zgłaszający:** zgłasza potrzebę, również anonimowo; nie musi mieć konta.
+- **Pośrednik:** rejestruje przekazaną informację w imieniu osoby, gdy jest to potrzebne, z odnotowaniem kanału, podstawy przekazania i ewentualnego sposobu odpowiedzi. Samo przyjęcie anonimowego zgłoszenia nie wymaga identyfikacji autora.
+- **Opiekun:** prowadzi rejestr, dokumentuje historię i koordynuje odpowiedzi; nie otrzymuje automatycznie prawa do podejmowania decyzji.
+- **Decydent:** działa wyłącznie w granicach własnego mandatu lub upoważnienia.
+- **Realizator:** odpowiada za działanie, które wyraźnie przyjął.
+- **Obserwator:** może korzystać z informacji przeznaczonych do publikacji.
+- **Instytucja publiczna:** pełnoprawny kontrybutor, zgłaszający i realizator, lecz bez zmiany kompetencji wynikających z prawa.
 
-## Minimalny przebieg
+## Cykl życia sprawy
 
-1. **Przyjęcie:** zarejestruj zgłoszenie i nadaj stabilny identyfikator.
-2. **Rozpoznanie:** ustal, jaka potrzeba stoi za zgłoszeniem; sprawdź duplikaty i właściwość.
-3. **Rozpatrzenie:** odnotuj decyzję: przyjęcie do realizacji, odłożenie, przekazanie, połączenie, odrzucenie lub prośba o uzupełnienie — z uzasadnieniem.
-4. **Działanie:** jeśli podjęto realizację, wskaż odpowiedzialność i sposób sprawdzenia wyniku.
-5. **Weryfikacja:** udokumentuj wynik, ocenę potrzeby oraz dalsze kroki, jeśli sprawa nie została rozwiązana.
-6. **Zamknięcie / ponowne otwarcie:** zachowaj ślad decyzji i powód zmiany.
+Minimalne statusy **sprawy**:
 
-Zalecane czytelne statusy: `NOWA`, `W_ANALIZIE`, `OCZEKUJE_NA_DECYZJE`, `PRZYJETA`, `W_REALIZACJI`, `DO_WERYFIKACJI`, `ZAKONCZONA`, `ODLOZONA`, `PRZEKAZANA`, `ODRZUCONA`. Są to statusy robocze; ich sens i przejścia wymagają sprawdzenia w pilotażu. „Przekazana” nie oznacza, że adresat przyjął sprawę.
+| Status | Znaczenie |
+| --- | --- |
+| NOWA | Przyjęto do rejestru, jeszcze nie rozpoznano |
+| W_ROZPATRZENIU | Trwa ustalanie potrzeby, kompetencji i sposobu postępowania |
+| W_DZIALANIU | Uprawniony podmiot wyraźnie przyjął własne działanie |
+| DO_WERYFIKACJI | Zgłoszono wykonanie, należy ocenić efekt |
+| ZAMKNIETA | Rozpatrywanie w danym zakresie zakończono z udokumentowanym wynikiem |
 
-## Minimum informacji dla każdej sprawy
+**Przejścia (projekt do pilotażu):**
 
-- Identyfikator i data przyjęcia.
-- Opis zgłoszenia i rozpoznanej potrzeby (osobno).
-- Kanał: osobisty, telefoniczny, papierowy, cyfrowy, integracja albo inny.
-- Opiekun lub organizacja odpowiedzialna za obsługę.
-- Aktualny status oraz data jego zmiany.
-- Chronologia istotnych zdarzeń i decyzji; kto i w jakiej roli je podjął.
-- Uzasadnienie decyzji, o ile nastąpiło rozstrzygnięcie.
-- Jeśli jest realizacja: właściciel działania, rezultat i sposób weryfikacji.
-- Reguły udostępnienia informacji bez ujawniania danych wrażliwych.
+| Z | Do | Warunek i zdarzenie |
+| --- | --- | --- |
+| NOWA | W_ROZPATRZENIU | Opiekun odnotował rozpoczęcie analizy |
+| W_ROZPATRZENIU | W_DZIALANIU | Uprawniony decydent przyjął konkretne działanie i wskazano realizatora |
+| W_ROZPATRZENIU | ZAMKNIETA | Odnotowano decyzję o odmowie, odłożeniu, połączeniu lub zakończeniu obsługi, z powodem i dalszą ścieżką |
+| W_DZIALANIU | DO_WERYFIKACJI | Realizator zgłosił rezultat |
+| DO_WERYFIKACJI | ZAMKNIETA | Oceniono rezultat, także jako nieskuteczny lub nieznany |
+| DO_WERYFIKACJI | W_DZIALANIU | Potrzebne dodatkowe działanie, które zostało przyjęte |
+| ZAMKNIETA | W_ROZPATRZENIU | Ponowne otwarcie z uzasadnieniem |
 
-Dane kontaktowe zgłaszającego są opcjonalne, zbierane tylko gdy potrzebne i przechowywane oddzielnie od publicznego rejestru. Anonimowość może ograniczyć możliwość dopytania, ale nie powinna wykluczać zgłoszenia.
+**Przekazanie**, **odłożenie**, **odrzucenie** i **połączenie** są *rodzajami decyzji/zdarzeń*, a nie obowiązkowymi dodatkowymi statusami. Przekazanie sprawy innemu podmiotowi **nie oznacza jej przyjęcia**. Odnotuj osobno: wysłano, potwierdzono odbiór, przyjęto do rozpatrzenia (tylko jeśli potwierdzone). Sprawa może pozostać w W_ROZPATRZENIU do kolejnej decyzji albo zostać zamknięta jako przekazana, ze wskazaniem braku potwierdzenia.
 
-## Przenoszalność
+Zamknięcie sprawy **nie oznacza** zaspokojenia potrzeby. Rezultat zapisujemy osobno: TAK / CZĘŚCIOWO / NIE / NIE WIADOMO.
 
-Proces musi dać się przeprowadzić i odtworzyć na papierze. Migracja między narzędziami powinna zachowywać identyfikatory, znaczenie stanów, historię decyzji i źródło informacji. Papierowy rejestr może być zgodny proceduralnie bez API; aplikacja może dodatkowo podlegać testom zgodności technicznej.
+## Dziennik zdarzeń
 
-## Pytania otwarte
+Każda zmiana istotna dla historii sprawy wymaga dopisania nowego wpisu (nie nadpisania poprzedniego). Minimalne pola:
 
-Jak rozpoznawać pilność? Jakie decyzje wymagają weryfikacji drugiej osoby? Jak obsługiwać sprawy wieloorganizacyjne i konflikty kompetencji? Jak długo przechowywać informacje? Kto może publikować rezultaty i na jakiej podstawie?
+| Pole | Znaczenie |
+| --- | --- |
+| Numer wpisu | Kolejność w ramach sprawy |
+| Data (i godzina, jeśli potrzebna) | Kiedy nastąpiło zdarzenie |
+| Typ zdarzenia | Przyjęcie, powiązanie, zmiana statusu, decyzja, przekazanie, potwierdzenie, rezultat, ponowne otwarcie |
+| Podmiot i rola | Kto wykonał czynność; dla anonimowego zgłoszenia można wskazać pośrednika |
+| Treść i uzasadnienie | Co się wydarzyło, dlaczego, z jakim skutkiem |
+| Odniesienie | Numer dokumentu, powiązanej potrzeby, zgłoszenia lub sprawy |
+
+Na papierze prowadzimy numerowane wiersze i skreślenia z datą oraz adnotacją zamiast wymazywania historii. Publiczna wersja dziennika jest redagowana pod kątem prywatności. Przenoszenie między papierem a aplikacją musi zachować identyfikatory wraz z wystawcą, kolejność, źródła i znaczenie zdarzeń.
+
+## Decyzje i granice kompetencji
+
+Każda decyzja wskazuje **decydenta, organizację, zakres uprawnienia, przedmiot i uzasadnienie**. Decyzja grupy mieszkańców może wiązać wyłącznie ich własne działania. Nie stanowi decyzji administracyjnej, nie obciąża budżetu urzędu i nie przypisuje urzędowi obowiązku bez odrębnego potwierdzenia. Informację o formalnym rozstrzygnięciu instytucji wolno zarejestrować tylko jako udokumentowany fakt, z podaniem źródła.
+
+## Interfejs białkowy i prywatność
+
+Osoba bez Internetu może zgłosić sprawę, uzyskać informację o statusie i przekazać uwagę przez rozmowę, telefon, dyżur lub papier. Pośrednik zapisuje własną rolę, kanał, podstawę przekazania i uzgodniony sposób odpowiedzi. **Nie wymagamy identyfikacji zgłaszającego**, jeżeli nie jest konieczna. Dane kontaktowe, jeśli potrzebne, są oddzielone od publicznych kart i rejestrów. Samo upoważnienie do wpisania zgłoszenia nie oznacza prawa do publikacji danych osobowych.
+
+## Zgodność i przenoszalność
+
+Podstawowa zgodność jest proceduralna: można ją sprawdzić bez komputera według [listy kontrolnej](zgodnosc-proceduralna.md). Implementacje cyfrowe mogą dodatkowo podlegać osobnym profilom API, importu/eksportu i federacji. Nie należy deklarować formalnej certyfikacji na podstawie roboczej listy.
+
+## Pytania do pilotażu
+
+Jak rozpoznawać pilność? Jak rozwiązywać spory o właściwość? Jak prowadzić kilka spraw dla jednej potrzeby? Jak długo przechowywać dokumenty i kto ma do nich dostęp? Kiedy i jak poinformować anonimowego zgłaszającego? Jakie decyzje wymagają drugiej osoby?
