@@ -25,6 +25,9 @@ Studia przypadku służą projektowaniu standardu, weryfikacji proceduralnej, te
 | [NSS-CS-019](NSS-CS-019/README.md) | Trebusz jako atrakcja historyczna | Hipotetyczny — odrzucenie i warunki powrotu |
 | [NSS-CS-020](NSS-CS-020/README.md) | Port wodny w Bielsku Podlaskim | Hipotetyczny — odrzucenie i warunki powrotu |
 | [NSS-CS-021](NSS-CS-021/README.md) | Tor gokartowy | Hipotetyczny — odrzucenie i warunki powrotu |
+| [NSS-CS-022](NSS-CS-022/README.md) | Godzina miesięcznie dla społeczności | Hipotetyczny — szkic |
+| [NSS-CS-023](NSS-CS-023/README.md) | Przeciążenie aktywnych mieszkańców | Hipotetyczny — szkic |
+| [NSS-CS-024](NSS-CS-024/README.md) | Wspólny zasób, konkurujące inicjatywy | Hipotetyczny — szkic |
 
 [Szablon](TEMPLATE.md). Testy muszą wskazywać wersję standardu i wymagania; do czasu ich zatwierdzenia są kandydatami. Przypadki negatywne są równie ważne jak sukcesy.
 
