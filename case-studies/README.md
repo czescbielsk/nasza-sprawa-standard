@@ -64,3 +64,7 @@ Przypadki hipotetyczne, testy niewykonane.
 - [NSS-CS-034 — Pośrednik zmienia sens zgłoszenia](NSS-CS-034/README.md)
 
 Przypadki hipotetyczne, testy niewykonane.
+
+## Konflikty i środowisko
+
+- [NSS-CS-035 — Uciążliwości zapachowe i podejrzenie zanieczyszczenia środowiska](NSS-CS-035/README.md) — problem zgłoszony przez użytkownika, niezweryfikowany, scenariusz zanonimizowany, testy niewykonane.
