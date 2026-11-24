@@ -19,6 +19,8 @@ Studia przypadku służą projektowaniu standardu, weryfikacji proceduralnej, te
 | [NSS-CS-013](NSS-CS-013/README.md) | Kawiarnia i przestrzeń do potańcówek | Hipotetyczny — szkic |
 | [NSS-CS-014](NSS-CS-014/README.md) | Internetowy bazarek lokalny | Hipotetyczny — szkic |
 | [NSS-CS-015](NSS-CS-015/README.md) | Przestrzeń mentoringu i grup hobbystyczno-edukacyjnych | Hipotetyczny — szkic |
+| [NSS-CS-016](NSS-CS-016/README.md) | Sprzeczne informacje o lokalnym popycie | Hipotetyczny — szkic |
+| [NSS-CS-017](NSS-CS-017/README.md) | Konflikt interesów przy wyborze dostawcy | Hipotetyczny — szkic |
 
 [Szablon](TEMPLATE.md). Testy muszą wskazywać wersję standardu i wymagania; do czasu ich zatwierdzenia są kandydatami. Przypadki negatywne są równie ważne jak sukcesy.
 
