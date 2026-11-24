@@ -55,3 +55,12 @@ Oba przypadki hipotetyczne, testy niewykonane.
 - [NSS-CS-030 — Współpraca bez wspólnej aplikacji](NSS-CS-030/README.md)
 
 Przypadki hipotetyczne, testy niewykonane.
+
+## Dostępność i wspomagane uczestnictwo
+
+- [NSS-CS-031 — Senior bez internetu](NSS-CS-031/README.md)
+- [NSS-CS-032 — Dzieci proponują miejsce do zabawy](NSS-CS-032/README.md)
+- [NSS-CS-033 — Dostępne wieczorki literackie](NSS-CS-033/README.md)
+- [NSS-CS-034 — Pośrednik zmienia sens zgłoszenia](NSS-CS-034/README.md)
+
+Przypadki hipotetyczne, testy niewykonane.
