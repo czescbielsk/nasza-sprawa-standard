@@ -21,9 +21,17 @@ Studia przypadku służą projektowaniu standardu, weryfikacji proceduralnej, te
 | [NSS-CS-015](NSS-CS-015/README.md) | Przestrzeń mentoringu i grup hobbystyczno-edukacyjnych | Hipotetyczny — szkic |
 | [NSS-CS-016](NSS-CS-016/README.md) | Sprzeczne informacje o lokalnym popycie | Hipotetyczny — szkic |
 | [NSS-CS-017](NSS-CS-017/README.md) | Konflikt interesów przy wyborze dostawcy | Hipotetyczny — szkic |
+| [NSS-CS-018](NSS-CS-018/README.md) | Budowa zwierzyńca | Hipotetyczny — odrzucenie i warunki powrotu |
+| [NSS-CS-019](NSS-CS-019/README.md) | Trebusz jako atrakcja historyczna | Hipotetyczny — odrzucenie i warunki powrotu |
+| [NSS-CS-020](NSS-CS-020/README.md) | Port wodny w Bielsku Podlaskim | Hipotetyczny — odrzucenie i warunki powrotu |
+| [NSS-CS-021](NSS-CS-021/README.md) | Tor gokartowy | Hipotetyczny — odrzucenie i warunki powrotu |
 
 [Szablon](TEMPLATE.md). Testy muszą wskazywać wersję standardu i wymagania; do czasu ich zatwierdzenia są kandydatami. Przypadki negatywne są równie ważne jak sukcesy.
 
 ## Potrzeby komercyjne i mieszane
 
 Standard obejmuje również rozpoznawanie popytu, oferty przedsiębiorców, płatne usługi i inicjatywy mieszane. Zainteresowanie nie jest zamówieniem ani gwarancją przychodu; decyzja inwestycyjna należy do przedsiębiorcy. Chronimy informacje handlowe, ujawniamy konflikty interesów i nie domniemamy finansowania publicznego. Testujemy efekty społeczne oraz ekonomiczne odpowiednio do celu, bez narzucania jednego modelu biznesowego.
+
+## Odrzucenie i ponowne rozpatrzenie
+
+Przypadki 018–021 sprawdzają odrzucenie aktualnej propozycji bez usuwania zgłoszenia, rozdzielenie zamknięcia sprawy od zaspokojenia potrzeby, warunki powrotu i ocenę nowych dowodów. Warunki powrotu nie są gwarancją realizacji. Retencja i ochrona danych obowiązują również dla odrzuconych propozycji.
