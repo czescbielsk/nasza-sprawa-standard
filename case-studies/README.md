@@ -47,3 +47,11 @@ Przypadki 018–021 sprawdzają odrzucenie aktualnej propozycji bez usuwania zg�
 Oba przypadki hipotetyczne, testy niewykonane.
 
 - [NSS-CS-027 — Żywa szopka bożonarodzeniowa](NSS-CS-027/README.md) — rzeczywista potrzeba zgłoszona przez użytkownika, scenariusz modelowy, testy niewykonane.
+
+## Interoperacyjność
+
+- [NSS-CS-028 — Kontrybucja spoza miejscowości](NSS-CS-028/README.md)
+- [NSS-CS-029 — Nieaktualna oferta w innym portalu](NSS-CS-029/README.md)
+- [NSS-CS-030 — Współpraca bez wspólnej aplikacji](NSS-CS-030/README.md)
+
+Przypadki hipotetyczne, testy niewykonane.
