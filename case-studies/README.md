@@ -45,3 +45,5 @@ Przypadki 018–021 sprawdzają odrzucenie aktualnej propozycji bez usuwania zg�
 - [NSS-CS-026 — Biblioteka inicjuje współpracę](NSS-CS-026/README.md)
 
 Oba przypadki hipotetyczne, testy niewykonane.
+
+- [NSS-CS-027 — Żywa szopka bożonarodzeniowa](NSS-CS-027/README.md) — rzeczywista potrzeba zgłoszona przez użytkownika, scenariusz modelowy, testy niewykonane.
