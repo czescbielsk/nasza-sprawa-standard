@@ -38,3 +38,10 @@ Standard obejmuje również rozpoznawanie popytu, oferty przedsiębiorców, pła
 ## Odrzucenie i ponowne rozpatrzenie
 
 Przypadki 018–021 sprawdzają odrzucenie aktualnej propozycji bez usuwania zgłoszenia, rozdzielenie zamknięcia sprawy od zaspokojenia potrzeby, warunki powrotu i ocenę nowych dowodów. Warunki powrotu nie są gwarancją realizacji. Retencja i ochrona danych obowiązują również dla odrzuconych propozycji.
+
+## Instytucje i autonomiczne tablice
+
+- [NSS-CS-025 — Wieczorki literackie w bibliotece](NSS-CS-025/README.md)
+- [NSS-CS-026 — Biblioteka inicjuje współpracę](NSS-CS-026/README.md)
+
+Oba przypadki hipotetyczne, testy niewykonane.
